@@ -3,65 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV</title>
+    <title>FORM HTML</title>
 </head>
 <body>
-    <table border="">
-        <th style="width: 10%;">CURICULUM VITAE</th>
-    </table>
-    <table border="" style="height: 100px;">
-        <img src="ME.JPG" width="8.2%" align="right">
-        <p></p>
+    <form action="" method="post">
+        <table border="0">
             <tr>
-                <th>Nama<td width="30%">:</td>
-                <td>William Lerens Domo</td></th>
-            </tr>
-            <tr>
-                <th>Jenis Kelamin</th>
-                <td>:</td>
-                <td>Pria</td>
-            </tr>
-            <tr>
-                <th>Agama</th>
-                <td>:</td>
-                <td>Kristen Protestan</td>
-            </tr>
-            <tr>
-                <th>Alamat</th>
-                <td>:</td>
-                <td>Jati Metro</td>
-            </tr>
-            <tr>
-                <th>Email</th>
-                <td>:</td>
-                <td>williamdomo520@gmail</td>
-            </tr>
-            <tr>
-                <th>Tempat Tanggal Lahir</th>
-                <td>:</td>
-                <td>Wayaua,24 Oktober 2004</td>
-            </tr>
-    </table> <br>
-    <table border=""><th style="width: 10%;">PENDIDIKAN FORMAL</th></table>
-    <table>
-        <ul>
-            <li>SD KRISTEN WAYAUA</li> <br>
-            <li>SMPN NEGRI 47 HALSEL</li> <br>
-            <li>SMAN NEGRI 17 HALSEL</li> <br>
-            <li>UNIVERSITAS KHAIRUN</li> <br>
-        </ul>
-    </table>
-    <table border=""><th style="width: 1%;">KELUARGA KUCING</th></table>
-    <table border=""><img src="cetah.jpg" alt="" width="25%" height="15%">
-        <img src="kucing.jpg" alt="" width="25%" height="15%">
-        <img src="singa.jpg" alt="" width="20%" height="15%">
-        <img src="harimau.jpg" alt="" width="26.8%" height="15%">
-        <table border=""><th style="width: 1%;">MARI RAJIN BELAJAR PELAJARI WALAUPUN ITU SULIT DAN JANGAN PERNAH BOSAN UNTUK BELAJAR HAL-HAL BARU</th></table>
+                <h2>FORM PEMESANAN TOKO BUKU ONLINE</h2>
+                </tr>
+                <tr>
+                    <td><h3><p>Akun</p></h3></td>
+                </tr>
+                <tr>
+                    <td>Username</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><h3>Pemesan</h3></td>
+                </tr>
+                <tr>
+                    <td>Fullname</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td>E-mail</td>
+                    <td>:</td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><p>Buku</p>
+                        <td>:</td>
+                        <td>
+                            <input type="checkbox">
+                            Teknologi Internet <br><br>
+                            <input type="checkbox">
+                            Pemrograman Web <br><br>
+                            <input type="checkbox">
+                            Fullstack Designer
+                        </td>
+                    </td>
+                </tr>
+                <td><p>Metode Pembayaran</p>
+                    <td>:</td>
+                    <td>
+                        <input type="radio">
+                        Tunai <br><br>
+                        <input type="radio">
+                        Non Tunai
+                    </td>
+                </td>
+                </tr>
+                <tr>
+                    <td><p>Jasa Pengiriman</p></td>
+                    <td>:</td>
+                    <td>
+                        <select name="" id="">
+                            <option value="">Pilih Jasa Pengiriman</option>
+                            <option value="">COD</option>
+                            <option value="">JNT</option>
+                            <option value="">JNE</option>
+                            <option value="">Lewat Hati Mu Boleh??</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><p>Alamat Pengiriman</p></td>
+                    <td>:</td>
+                    <td><textarea name="" id=""></textarea></td>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="button" value="Submit">
+                        <input type="button" value="reset">
+                    </td>
+                </tr>
+        </table>
+    </form>
 </body>
 </html>
-
 <style>
-    body {
+    body{
         background-color: aqua;
+        color: rgb(7, 7, 7);
     }
 </style>
